@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --brM: 10px;
+}
+
+input::placeholder {
+    color: #FFF;
+    opacity: 0.2;
+    font: italic 15px arial;
+}
+
+body {
+    background-color: #111;
+}
+
+main {
+    width: 70vw;
+    height: 80vh;
+    background-color: #002;
+    margin: 8vh 15vw;
+    border-radius: var(--brM);
+    padding: 10px;
+    position: relative;
+}
+
+main::before {
+    content: "";
+    background-image: linear-gradient(45deg, yellow, red, blue);
+    position: absolute;
+    left: -2vb;
+    right: -2vb;
+    top: -2vb;
+    bottom: -2vb;
+    border-radius: var(--brM);
+    z-index: -1;
+}
+
+main .logo {
+    position: relative;
+    width: 30vb;
+    height: 20vb;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-top: 21vb;
+
+}
+
+main .logo::before {
+    content: "Are You Ready";
+    font: 48px Impact;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    color: transparent;
+    left: 0;
+    top: 0;
+    text-shadow: 0px 0px 5px white;
+    z-index: 5;
+}
+
+main .logo::after {
+    content: "Are You Ready";
+    font: 48px Impact;
+    text-align: center;
+    color: transparent;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(45deg, blue, red);
+    background-clip: text;
+    z-index: 6;
+}
+
+main>form>* {
+    display: block;
+    margin: 10px auto;
+}
+
+main input[type="text"] {
+    background-color: #111;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px 5px rgba(153, 153, 153, 0.055);
+    width: 70%;
+    color: white;
+}
+
+main button {
+    background-color: green;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 7px 15px;
+    font: 16px Arial;
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+{
+    "Idioms": [
+        {
+            "1)": {
+                "idiom": "A Hot Potato",
+                "answer": "Speak of an issue which many people are talking about and which is usually disputed",
+                "term": 1
+            }
+        },
+        {
+            "2)": {
+                "idiom": "A penny for your thoughts",
+                "answer": "A way of asking what someone is thinking",
+                "term": 1
+            }
+        },
+        {
+            "*)": {
+                "idiom": "",
+                "answer": "",
+                "term": ""
+            }
+        }
+    ]
+}
